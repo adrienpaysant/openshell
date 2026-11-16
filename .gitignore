@@ -1,0 +1,7 @@
+# OpenShell local state and credentials
+state/
+results/
+*.pem
+*.key
+*.crt
+gateway.toml

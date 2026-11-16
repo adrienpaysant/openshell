@@ -1,0 +1,9 @@
+[openshell]
+version = 2
+
+[openshell.gateway]
+compute_driver = "podman"
+
+[openshell.drivers.podman]
+# On macOS, omit socket_path: OpenShell auto-detects the active Podman Machine socket.
+image_pull_policy = "if_not_present"
